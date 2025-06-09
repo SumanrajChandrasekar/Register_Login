@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet], // Import RouterOutlet to enable routing in the application
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
